@@ -99,7 +99,7 @@ def GetSenha():
 
 @app.route("/", methods=["GET"])
 def Welcome():
-    return "<h1>Hello World!</h1>"
+    return "<h1>Hello World!</h1><br /><h3>Para acessar as senhas, basta acrescentar '/Senha' na URL"
 
 
 @app.route("/Senha", methods=['GET'])
