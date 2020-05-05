@@ -37,68 +37,6 @@ bandas = [
     
 ]
 
-#
-#3100/Brasil-1958-1963
-# A-10
-# A-20-1985-1995
-# Alvorada-1961-1963
-# Amazona-1959-1963
-# Astra-1998-2011
-# Beretta
-# Blazer-1995-2011
-# Bonanza-1989-1994
-# Bolt-2019
-# C-10-1974-1988
-# C-14-1964-1973
-# C-1416-1964-1994
-# C-15-1964-1973
-# C-20-1985-1995
-# Camaro-2010- 
-# Caravan-1975-1992
-# Celta-2000-2015
-# Chevette-Hatch-1980-1988
-# Chevette-1973-1993
-# Chevette-Junior-1992-1993
-# Chevy-500-1983-1995
-# Cobalt-2011-2020
-# Corisco-?-1963
-# Corsa-1994-2012
-# Corsa-Sedan-Classic-1995-2011
-# Corsa-Pick-up-1995-2002
-# Corsa-Wagon-1997-2001
-# Cruze-2011-
-# Cruze-Sport6-2012-
-# D-10-1980-1985
-# D-20-1985-1995
-# Ipanema-1990-1998
-# Kadett-1989-1998
-# Kadett-Conversível-1991-1995
-# Marajó-1981-1989
-# Meriva-2002-2012
-# Montana-2003-
-# Monza-Sedan-1983-1996
-# Monza-Hatch-1982-1988
-# Omega-1992-1998-1998-2012
-# Onix-2012-
-# Opala-Coupe-1971-1988
-# Opala-1968-1992
-# Prisma-2006-
-# Silverado1997-2001
-# S10-1995-
-# Spin-2012-
-# Suprema-1993-1996
-# TrailBlazer-2012-
-# Vectra-1993-2011
-# Vectra-GT-2007-2011
-# Veraneio-1964-1994
-# Volt
-# Zafira-2001-2012
-# Equinox-2017
-# SS10
-# Caprice
-# Malibu-2010-2012
-#
-#
 
 
 numeros = [
