@@ -1,8 +1,11 @@
+import os
 from random import randint
 from flask import Flask, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
 
+cors = CORS(app, resource={r"/*":{"origins": "*"}})
 
 bandas = [
     "Metallica",
@@ -33,6 +36,10 @@ bandas = [
     "LosHermanos", 
     
 ]
+
+@app.route("/", methods=["GET"])
+def met():
+    return "Hello World"
 
 
 
@@ -98,5 +105,11 @@ def GetSenha():
 def home():
     return jsonify(GetSenha()), 200
 
+def main():
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host="0.0.0.0", port=port)
+
+
 if __name__ == '__main__':
     app.run(debug=True)
+    main()
