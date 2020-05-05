@@ -37,9 +37,6 @@ bandas = [
     
 ]
 
-@app.route("/", methods=["GET"])
-def met():
-    return "Hello World"
 
 
 
@@ -100,6 +97,10 @@ def GetSenha():
 
     return senha
 
+@app.route("/", methods=["GET"])
+def Welcome():
+    return "<h1>Hello World!</h1>"
+
 
 @app.route("/Senha", methods=['GET'])
 def home():
@@ -111,5 +112,5 @@ def main():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
     main()
